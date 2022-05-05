@@ -1,0 +1,3 @@
+To make life easier, all carousel images should be the same size:
+
+720 x 400

@@ -1,0 +1,51 @@
+
+.destinationBox{
+	color: white;
+	border: solid 2px gray;
+	text-align: right;
+	background-size: cover;
+	margin:30px;
+	font-weight:bold;
+	min-height: 200px;
+	
+}
+
+
+
+
+.destinationTitle{
+	color: white;
+	text-align: left;
+	font-size: x-large;
+	text-shadow: 1px 1px 2px black; /* right, down, blur-radius, color */
+}
+
+
+
+.destinationBox .destinationBlurb {
+	background-color:rgba(0,0,0,0.3); /*transparent dark background*/
+}
+
+.destinationBlurbText {
+	margin-left: 30%;
+	text-shadow: 1px 1px 2px black;
+}
+
+.btn {
+	text-shadow: initial;
+	border: solid 1px black;
+	clear:both;
+}
+
+
+#destinationBox_Glendalough{
+	background-image: url("../images/destinations/glendalough.png");
+}
+
+#destinationBox_Killarney{
+	background-image: url("../images/destinations/killarney.png");
+}
+
+#destinationBox_Moher{
+	background-image: url("../images/destinations/cliffs-of-moher.png");
+}

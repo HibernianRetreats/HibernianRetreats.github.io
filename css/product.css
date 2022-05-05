@@ -1,0 +1,178 @@
+.booking {
+	color:  #000000;
+ 	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:Arial;
+	border: 2px;		/* this should have a color and style e.g. border: 2px solid WhiteSmoke;*/
+	width:250px;
+	padding:15px;
+	background:#fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	/* place in center of the column */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.booking legend{
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:bold;
+}
+
+.booking .heavy{
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:bold;
+}
+
+
+#contentArea {
+	background-repeat:no-repeat;
+}
+
+.transparentWindow {
+	background-color:rgba(255,255,255,0.7); /*transparent background*/
+	padding:10px;
+}
+
+.overview{
+
+}
+
+.opt-container {
+ position: relative;
+ max-width: 80%;
+ left: 5px;
+ cursor: pointer;
+ font-size: 15px;
+ margin-bottom: 10px;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+.opt-container input[type=radio] {
+ position: absolute;
+ opacity: 0;
+ cursor: pointer;
+}
+
+.button-label {
+ position: relative;
+ background-color: FFFFFF;
+ border-radius: 10px;
+ max-width: 660px;
+ left: 50px;
+ padding-left: 10px;
+ font-family: Roboto Condensed;
+}
+
+.radio-label {
+ cursor: pointer;
+}
+
+.new-button {
+ position: absolute;
+ height: 15px;
+ width: 15px;
+ background-color: #eee;
+ border-radius: 50%;
+}
+
+.opt-container:hover .new-button,
+.opt-container:hover .button-label {
+ background-color: rgba(0, 0, 0, 0.2);
+}
+
+.opt-container input:checked~.new-button,
+.opt-container input:checked~.button-label {
+ background-color: #7EE29E;
+}
+
+#datemessage{
+	color: #6F7378;
+	position: relative;
+	border-radius: 1px;
+  max-width: 660px;
+  left: 10px;
+  padding-left: 0px;
+	cursor: pointer;
+}
+
+#sendinquery{
+font-family: Copperplate;
+font-size: large;
+position: sticky;
+bottom: 32px;
+background-color: #08a04b;
+text-align: center;
+border-radius: 10px;
+left: 10px;
+
+}
+
+#requesttobook{
+font-family: Copperplate;
+font-size: large;
+position: sticky;
+bottom: 0;
+background-color: #08a04b;
+text-align: center;
+border-radius: 10px;
+}
+
+#contentArea .booking fieldset,.overview fieldset{
+	margin:10px;
+	padding:15px;
+	display: block;
+	/*
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+	*/
+    border-radius: 10px;
+		font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
+
+}
+
+.tip{
+ color: #7c795d;
+ font-family: 'Trocchi', serif; font-size: 20px; font-weight: normal; line-height: 48px; margin: 0;
+ font-weight:bold;
+
+}
+
+.intro p:first-child::first-letter{
+    color:#FE5F55;
+    font-weight: bold;
+    font-size: 50px;
+    float: left;
+    line-height: 40px;
+    padding-right: 8px;
+    margin-top: -3px;
+}
+
+@media screen and (max-width:600px){
+    .intro{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+
+/* debug borders
+.row {
+	border: dotted 2px red;
+}
+
+.col {
+	border: dashed 2px blue;
+}
+
+.booking {
+	border: dotted 2px green;
+} */

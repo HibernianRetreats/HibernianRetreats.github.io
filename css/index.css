@@ -1,0 +1,114 @@
+#body{
+	font-size:100%;
+	font-family: Verdana, Arial, Helvetica;
+}
+
+
+p {
+	margin:5px;
+	padding:5px;
+}
+
+img {
+	margin:5px;
+	padding:5px;
+}
+
+#navbar {
+	position:relative;
+	bottom: 0px;
+}
+
+#buffer-left{
+	/*background: WhiteSmoke;*/
+	background: #5584ac;
+}
+
+#buffer-right{
+	/*background: WhiteSmoke;*/
+	background: #5584ac;
+}
+
+
+#contentArea {
+	padding: 50px;
+}
+
+
+
+
+#footer{
+	height:50px;
+	text-align:right;
+}
+
+.leftImage {
+	float:left;
+	object-fit: cover;
+	width: 30%;
+
+}
+.rightImage {
+	float:right;
+	object-fit: cover;
+	width: 30%;
+
+}
+
+.carousel-item p{
+	/* make the text easier to read over the images */
+	background-color:rgba(0,0,0,0.3); /*transparent dark background*/
+	font-size: larger;
+	text-shadow: black 0px 0px 5px;
+	margin:0;
+}
+.carousel-item h4{
+	/* make the text easier to read over the images */
+	background-color:rgba(0,0,0,0.3); /*transparent dark background*/
+	text-shadow: black 0px 0px 5px;
+	margin:0;
+}
+
+
+.closeButton{
+	width:100px;
+	/* center the button */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* debug borders */
+/*
+
+#navbar {
+	border: solid 2px gray;
+}
+
+
+.buffer{
+	border: solid 2px pink;
+}
+
+#contentArea {
+	border: solid 2px red;
+}
+
+#content {
+	border: solid 2px brown;
+}
+
+.row{
+	border: solid 2px yellow;
+}
+
+#carouselArea{
+	border: solid 2px blue;
+}
+
+.col-sm-4{
+	border: solid 2px blue;
+}
+
+.col-sm-8{
+	border: solid 2px green;
+}
