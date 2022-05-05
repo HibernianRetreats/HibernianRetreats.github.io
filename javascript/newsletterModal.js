@@ -34,9 +34,15 @@ window.onclick = function(event) {
 }
 
 function submitEmail(){
-	/* hide the modal now */
-	newsmodal.style.display = "none";
-	thanksModal.style.display = "block";
+	var email = $('#form_email').val();
+	
+	if (email === ""){
+		
+	} else {
+		/* hide the modal now */
+		newsmodal.style.display = "none";
+		thanksModal.style.display = "block";
+	}
 }
 
 function closeThanksModal(){
